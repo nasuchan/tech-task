@@ -6,3 +6,9 @@ It contains:
 
 ## Required
 * Python 3.7
+
+## Installation
+No installation required
+
+## Running unit tests
+Unit tests can be executed in an IDE like PyCharm or in terminal with command "python -m unittest [path]/unit_tests.py"
