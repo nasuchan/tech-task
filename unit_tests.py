@@ -32,7 +32,7 @@ class TestGermanAddressParser(unittest.TestCase):
 
 class TestWorldAddressParser(unittest.TestCase):
     """
-    In these tests parching of different valid addresses from 5 different countries is checked.
+    In these tests parching of different valid addresses from 4 different countries is checked.
     Checked countries: USA, Spain, Argentina, France
     Parameter:
     - address in format Street + house number
@@ -65,8 +65,8 @@ class TestWorldAddressParser(unittest.TestCase):
 
 class TestInvalidAddressesRaiseException(unittest.TestCase):
     """
-    In these tests parching of different valid addresses from 5 different countries is checked.
-    Checked countries: USA, Spain, Argentina, France
+    In these tests parching of different invalid addresses from 5 different countries is checked.
+    Checked countries: USA, Spain, Argentina, France, Germany
     Parameter:
     - address with a street name and a house number
     - country - one of supported countries
