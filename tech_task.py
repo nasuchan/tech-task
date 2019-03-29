@@ -43,7 +43,7 @@ def splitStreetWorldAddress(address, country):
     elif country.lower() == "usa":
         regexPattern = "([0-9\-]*)[\W\s+]([a-zA-Z \.]*)"
         # American address contains numeric house number first, it can be complex number like 2-3.
-        # Then street address with name with a-z, A-Z, can contain dash(-), space( ).
+        # Then street address with name with a-z, A-Z, can contain dash(-), space( ), dot(.).
         # Can be divided by space or comma.
         try:
             addressSplit = re.split(regexPattern, address)
